@@ -1,33 +1,3 @@
-# BCU1525 DDR4 memory Vivado support files
+# Crutial Ballistix Sport LT Vivado support files
 
-- Vivado "custom part" file for Ballistix Sport LT 2400MT/s 4GB and 8GB UDIMMs
-- Vivado constraints files for VCU/BCU DDR4 interfaces
-- Vivado TCL script to create test project for VCU1525 board (100% compatible with BCU)
-
-# TCL script usage
-
-<b>Warning!</b> Make sure project builds and works first, so do not customize any project or IP settings.<br><br>
-
-Copy all files in one directory and in Vivado TCL console source script from it.<br>
-For example:<br>
-cd D:/Projects/Hardware-Xilinx-HDL/ballistix_ddr4/<br>
-source ./vcu1525_ballistix_project.tcl<br>
-
-# Block Diagram
-![Vivado_Block_Diagram](vcu1525_ballistix_project.png?raw=true "Vivado Block Diagram")
-
-# DDR4 Controller IP settings
-
-![Vivado_DDR4_Settings](vcu1525_ballistix_settings.png?raw=true "Vivado DDR4 Settings")
-
-# Address Map
-
-![Vivado_Address_Map](vcu1525_ballistix_address.png?raw=true "Vivado Address Map")
-
-# Implemented design
-
-![Vivado_Implementation](vcu1525_ballistix_implementation.png?raw=true "Vivado Implementation")
-
-# Memory Calibration in HW Manager
-
-![Vivado_HWManager](vcu1525_ballistix_calibration.png?raw=true "Vivado Manager")
+Moved to separate repo: <a href='https://github.com/D953i/Custom_Part_Data_Files'>https://github.com/D953i/Custom_Part_Data_Files</a>
